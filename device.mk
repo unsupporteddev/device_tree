@@ -14,7 +14,7 @@ $(call inherit-product, frameworks/native/build/phone-xhdpi-6144-dalvik-heap.mk)
 $(call inherit-product, vendor/nothing/Spacewar/Spacewar-vendor.mk)
 
 # NT Camera
-$(call inherit-product, vendor/nothing/camera/nothing-camera.mk)
+#$(call inherit-product, vendor/nothing/camera/nothing-camera.mk)
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
